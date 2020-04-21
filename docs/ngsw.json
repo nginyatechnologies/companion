@@ -1,0 +1,86 @@
+{
+  "configVersion": 1,
+  "timestamp": 1587465909442,
+  "index": "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/favicon.ico",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/index.html",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/main-es2015.d4bf420babce2df36d89.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/main-es5.d4bf420babce2df36d89.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/manifest.webmanifest",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/polyfills-es2015.442fa3cc45520cc0d518.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/polyfills-es5.fd3af48698f9b02947d9.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/runtime-es2015.0811dcefd377500b5b1a.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/runtime-es5.0811dcefd377500b5b1a.js",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/styles.9581ed694b0fe9ab9978.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-128x128.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-144x144.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-152x152.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-192x192.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-384x384.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-512x512.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-72x72.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-96x96.png",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/images/homeBg.jpg",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/images/profile_us.jpg",
+        "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/homeBg.dd4a6eeeb338bf4984e7.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/images/homeBg.jpg": "f75c4eae25552385378ad5df7b6d14355f2eb1d0",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/assets/images/profile_us.jpg": "effc51d227eae27619158de8503990f8e5f4a23d",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/homeBg.dd4a6eeeb338bf4984e7.jpg": "f75c4eae25552385378ad5df7b6d14355f2eb1d0",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/index.html": "e77e8b92e932689914b6b28e6583030452ae6326",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/main-es2015.d4bf420babce2df36d89.js": "afe28e699a79bd7e1584fbcbfc91a70267cc8316",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/main-es5.d4bf420babce2df36d89.js": "2d1047ee01ff5d278c868f297f50ab67bbc8da6b",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/manifest.webmanifest": "f6a0dca84885679c1232497b6ce8f8babcd286d4",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/polyfills-es5.fd3af48698f9b02947d9.js": "29c3dfd16faa921dd49165f318f9eed12a2f3be7",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "D:/Level 400 materials/School materials/SECOND SEMESTER/MATLAB INSTALL DIR/Git/companion/styles.9581ed694b0fe9ab9978.css": "47099ec2c5ee3eb1ff94e1d238cfc51c07f5b37e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
