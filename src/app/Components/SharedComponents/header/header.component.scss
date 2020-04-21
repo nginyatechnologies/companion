@@ -1,0 +1,25 @@
+.mainNav-one {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navLinks-one {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ul button {
+  margin-right: 4rem;
+}
+
+.mainNav-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks-two {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,26 @@
+.container-sidenav {
+  max-width: 20rem;
+  height: inherit;
+}
+mat-card {
+  padding-left: 2rem;
+}
+.username-container {
+  display: flex;
+}
+.second-card {
+  margin-top: 1rem;
+}
+.first-card {
+  margin-bottom: 1rem;
+}
+
+mat-card-header img {
+  width: 50%;
+  height: 8rem;
+  // object-fit: cover;
+}
+
+.sidenavBtn mat-icon {
+  margin-right: 0.5rem;
+}

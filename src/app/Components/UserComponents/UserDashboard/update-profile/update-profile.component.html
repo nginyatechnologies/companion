@@ -1,0 +1,40 @@
+<div class="updateProfile-container">
+  <mat-card class="userDashboard-card">
+    <mat-card-header>
+      <!-- <img matCardAvatar src="Avatar source"> -->
+      <mat-card-title>User Profile</mat-card-title>
+      <mat-card-subtitle>Sinclaire's Profile</mat-card-subtitle>
+    </mat-card-header>
+    <!-- <img matCardImage src="Card wide image source"> -->
+
+    <mat-divider></mat-divider>
+    <mat-card-content>
+
+      <!-- Login toggler -->
+      <mat-slide-toggle [(ngModel)]="toggleLogin" (change)="loginToggler($event)" color="primary">
+        {{ Status }}
+      </mat-slide-toggle><br>
+      <mat-divider></mat-divider>
+      <h3> User Details and recently executed tasks will appear here</h3>
+
+      <!-- More User Details -->
+      <mat-nav-list dense>
+        <a mat-list-item *ngFor="let link of links" href="link">
+          link
+          <mat-checkbox value="" color="primary"></mat-checkbox>
+        </a>
+      </mat-nav-list>
+
+
+    </mat-card-content>
+    <mat-card-actions align="start">
+      <button mat-raised-button color="primary">Save</button>
+      <button mat-raised-button color="accent">Cancel</button>
+
+    </mat-card-actions>
+    <mat-card-footer>
+      More actions
+    </mat-card-footer>
+  </mat-card>
+
+</div>

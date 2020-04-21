@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/theming";
+@import "./themes/all-dark-themes";
+@include mat-core();
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+mat-toolbar {
+  width: 100%;
+}
+p {
+  color: white;
+}
+
+//Responsive Screen Breakpoints -- sizes
+@media screen and (max-width: 399px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+// App themes
+.blue-dark-theme {
+  @include blue-dark-theme;
+}
+.pink-dark-theme {
+  @include pink-dark-theme;
+}
+.indigo-dark-theme {
+  @include indigo-dark-theme;
+}
+.cyan-dark-theme {
+  @include cyan-dark-theme;
+}
+.teal-dark-theme {
+  @include teal-dark-theme;
+}

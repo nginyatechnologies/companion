@@ -1,0 +1,90 @@
+<div class="container-sidenav">
+  <mat-nav-list>
+
+    <!-- First Card -->
+    <mat-card class="first-card">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../../assets/images/profile_us.jpg" alt="Profile_Picture">
+        <div class="username-container">
+          <span>
+            <mat-card-title>{{user.firstName}}</mat-card-title>
+            <mat-card-subtitle>{{user.lastName}}</mat-card-subtitle>
+          </span>
+          <button mat-icon-button>
+            <mat-icon>edit</mat-icon>
+          </button>
+        </div>
+      </mat-card-header>
+      <div class="editProfilePicture">
+        <button mat-icon-button class="uploadProfilePicture">
+          <mat-icon>photo_camera</mat-icon>
+        </button>
+      </div>
+      <mat-card-content>
+        <span>kambangsinclaire@gmail.com</span>
+        <button mat-icon-button>
+          <mat-icon>edit</mat-icon>
+        </button>
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-raised-button (click)="onAction()" color="primary">Save</button>
+        <button mat-raised-button (click)="onAction()" color="warn">Cancel</button>
+
+      </mat-card-actions>
+      <mat-card-footer>
+        User since 2020
+      </mat-card-footer>
+    </mat-card>
+
+    <mat-divider></mat-divider>
+
+    <!-- Second card -->
+    <mat-card class="second-card">
+      <mat-card-header>
+        <mat-card-title>
+          Other Settings
+        </mat-card-title>
+      </mat-card-header>
+
+      <mat-divider></mat-divider>
+
+      <mat-card-content>
+        <a class="sidenavBtn" mat-list-item routerLink="">
+          <mat-icon>home</mat-icon>
+          home
+        </a>
+        <mat-divider></mat-divider>
+        <a class="sidenavBtn" mat-list-item>
+          <mat-icon>launch</mat-icon>
+          Adverts
+        </a>
+        <a class="sidenavBtn" mat-list-item>
+          <mat-icon>notifications</mat-icon>
+          Notifications
+        </a>
+        <a class="sidenavBtn" mat-list-item>
+          <mat-icon>polymer</mat-icon>
+          Reviews
+        </a>
+        <mat-divider></mat-divider>
+        <a class="sidenavBtn" mat-list-item>
+          <mat-icon>help</mat-icon>
+          Support
+        </a>
+      </mat-card-content>
+      <!-- <mat-card-actions align="end">
+        <button mat-icon-button>
+          <mat-icon>insert_invitation</mat-icon>
+        </button>
+
+      </mat-card-actions> -->
+      <mat-card-footer>
+        <button mat-icon-button>
+          Copyright
+          <mat-icon>copyright</mat-icon>
+          2020 NginyaTechnologies.com
+        </button>
+      </mat-card-footer>
+    </mat-card>
+  </mat-nav-list>
+</div>

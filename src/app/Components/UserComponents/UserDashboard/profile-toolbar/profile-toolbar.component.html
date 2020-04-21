@@ -1,0 +1,36 @@
+<mat-toolbar class="main-container" color="accent" *ngIf="openProfileToolbar">
+
+  <button class="sidenavBtn" mat-icon-button (click)="openSideNav()">
+    <mat-icon>{{sidenavToggler}}</mat-icon>
+  </button>
+
+  <div class="container">
+    <ul class="navLinks-one">
+      <button mat-icon-button routerLink='/user/job/addJobPost'>
+        <mat-icon>add_circle</mat-icon>
+        Chat
+      </button>
+
+      <!--  color="primary" matBadge="5" matBadgePosition="before" matBadgeColor="warn" -->
+      <button mat-icon-button routerLink='/user/login'>
+        <mat-icon>
+          redeem
+        </mat-icon>
+        Advert
+      </button>
+
+
+      <button mat-icon-button routerLink='/user/dashboard/profile/2'>
+        <mat-icon>dashboard</mat-icon>
+        Dashboard
+      </button>
+
+      <button mat-icon-button routerLink='/user/search'>
+        <mat-icon>search</mat-icon>
+        Search
+      </button>
+
+    </ul>
+  </div>
+
+</mat-toolbar>

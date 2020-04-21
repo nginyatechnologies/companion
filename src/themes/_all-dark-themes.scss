@@ -1,0 +1,77 @@
+/*
+  ALL THE THEMES OF THIS APPLICATION ARE DEFINED HERE
+*/
+
+// MY BLUE THEME
+@mixin blue-dark-theme {
+  $blue-theme-primary: mat-palette($mat-blue);
+  $blue-theme-accent: mat-palette($mat-lime);
+  $blue-theme-warn: mat-palette($mat-yellow);
+
+  $my-blue-theme: mat-dark-theme(
+    $blue-theme-primary,
+    $blue-theme-accent,
+    $blue-theme-warn
+  );
+
+  @include angular-material-theme($my-blue-theme);
+}
+
+// MY TEAL THEME
+@mixin teal-dark-theme {
+  $teal-dark-theme-primary: mat-palette($mat-teal);
+  $teal-dark-theme-accent: mat-palette($mat-green);
+  $teal-dark-theme-warn: mat-palette($mat-orange);
+
+  $my-teal-dark-theme: mat-dark-theme(
+    $teal-dark-theme-primary,
+    $teal-dark-theme-accent,
+    $teal-dark-theme-warn
+  );
+  @include angular-material-theme($my-teal-dark-theme);
+}
+
+// MY PINK THEME
+@mixin pink-dark-theme {
+  $pink-theme-primary: mat-palette($mat-pink);
+  $pink-theme-accent: mat-palette($mat-teal);
+  $pink-theme-warn: mat-palette($mat-red);
+
+  $my-pink-theme: mat-dark-theme(
+    $pink-theme-primary,
+    $pink-theme-accent,
+    $pink-theme-warn
+  );
+
+  @include angular-material-theme($my-pink-theme);
+}
+
+//MY INDIGO LIGHT THEME
+@mixin indigo-dark-theme {
+  $indigo-dark-theme-primary: mat-palette($mat-indigo);
+  $indigo-dark-theme-accent: mat-palette($mat-pink, 500);
+  $indigo-dark-theme-warn: mat-palette($mat-pink, A700);
+
+  $my-indigo-dark-theme: mat-dark-theme(
+    $indigo-dark-theme-primary,
+    $indigo-dark-theme-accent,
+    $indigo-dark-theme-warn
+  );
+
+  @include angular-material-theme($my-indigo-dark-theme);
+}
+
+// MY CYAN THEME
+@mixin cyan-dark-theme {
+  $cyan-theme-primary: mat-palette($mat-cyan);
+  $cyan-theme-accent: mat-palette($mat-teal);
+  $cyan-theme-warn: mat-palette($mat-pink);
+
+  $my-cyan-dark-theme: mat-dark-theme(
+    $cyan-theme-primary,
+    $cyan-theme-accent,
+    $cyan-theme-warn
+  );
+
+  @include angular-material-theme($my-cyan-dark-theme);
+}

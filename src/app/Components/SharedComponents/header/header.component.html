@@ -1,0 +1,45 @@
+<mat-toolbar class="mainNav-one" color="primary">
+  <h5>Companion</h5>
+  <div class="container">
+
+    <ul class="navLinks-one">
+      <button mat-icon-button routerLink=''>
+        <mat-icon>home</mat-icon>
+        Home
+      </button>
+
+      <button mat-icon-button routerLink='/user/search'>
+        <mat-icon>search</mat-icon>
+        Search
+      </button>
+
+      <button mat-icon-button routerLink='/user/login'>
+        <mat-icon>person</mat-icon>
+        Login
+      </button>
+
+      <button mat-icon-button routerLink='/user/register'>
+        <mat-icon>person_add</mat-icon>
+        Sign Up
+      </button>
+
+      <button mat-icon-button (click)="openUserProfile()">
+        <mat-icon>account_circle</mat-icon>
+        Profile
+      </button>
+
+      <button mat-icon-button [matMenuTriggerFor]="menuButtons">
+        <mat-icon>settings</mat-icon>
+        Customize
+      </button>
+      <mat-menu #menuButtons>
+        <button mat-menu-item *ngFor="let theme of themes" (click)="selectTheme(theme.value)">
+          {{theme.name}}
+        </button>
+      </mat-menu>
+
+    </ul>
+  </div>
+</mat-toolbar>
+
+<!-- Uncomment this part to get a second toolbar -->

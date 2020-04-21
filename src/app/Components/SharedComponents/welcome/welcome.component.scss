@@ -1,0 +1,41 @@
+.container-welcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../../../../assets/images/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem;
+}
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+.welcomeText h1 {
+  font-size: 3rem;
+  font-style: bolder;
+  font-weight: 600;
+  color: aquamarine;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.getStarted {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+mat-card {
+  max-width: 20rem;
+  margin-left: 3rem;
+  padding: 3rem;
+}
+mat-card-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+mat-card-title {
+  // color: ;
+}

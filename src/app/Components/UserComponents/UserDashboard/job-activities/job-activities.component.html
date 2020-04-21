@@ -1,0 +1,28 @@
+<div class="jobActivities-container">
+  <mat-card class="userDashboard-card">
+    <mat-card-title-group>
+      <mat-card-title>Transactions</mat-card-title>
+      <mat-card-subtitle>Sinclaire's Transactions</mat-card-subtitle>
+      <!-- <img matCardImage src="Side image"> -->
+    </mat-card-title-group>
+    <!-- <img matCardImage src="Card wide image source"> -->
+
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <h3>Transaction Analysis and Feedback</h3>
+      <mat-progress-spinner [mode]="mode" [value]="100" color="primary">
+      </mat-progress-spinner>
+      <span>20%</span>
+      <h4>{{loading}}</h4>
+    </mat-card-content>
+    <mat-card-actions align="start">
+      <button mat-raised-button color="primary">Save</button>
+      <button mat-raised-button color="accent">Cancel</button>
+
+    </mat-card-actions>
+    <mat-card-footer>
+      More actions
+    </mat-card-footer>
+  </mat-card>
+
+</div>
