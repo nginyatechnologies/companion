@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "DreamJob": {
+    "companion": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/DreamJob",
+            "outputPath": "dist/companion",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "DreamJob:build"
+            "browserTarget": "companion:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "DreamJob:build:production"
+              "browserTarget": "companion:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "DreamJob:build"
+            "browserTarget": "companion:build"
           }
         },
         "test": {
@@ -120,18 +120,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "DreamJob:serve"
+            "devServerTarget": "companion:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "DreamJob:serve:production"
+              "devServerTarget": "companion:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "DreamJob",
+  "defaultProject": "companion",
   "cli": {
     "analytics": "d517ab06-564a-436e-87c5-7fd2f2a53a7e"
   }

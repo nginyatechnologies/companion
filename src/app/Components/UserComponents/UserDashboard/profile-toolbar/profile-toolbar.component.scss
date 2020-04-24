@@ -37,3 +37,14 @@ ul button {
     max-width: 70%;
   }
 }
+@media screen and (max-width: 322px) {
+  .searchIcon {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 80%;
+  }
+}
