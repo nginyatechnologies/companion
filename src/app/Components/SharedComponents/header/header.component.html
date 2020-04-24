@@ -4,33 +4,27 @@
 
     <ul class="navLinks-one">
       <button mat-icon-button routerLink=''>
-        <mat-icon>home</mat-icon>
-        Home
+        <mat-icon class="homeIcon">home</mat-icon>
       </button>
 
       <button mat-icon-button routerLink='/user/search'>
-        <mat-icon>search</mat-icon>
-        Search
+        <mat-icon class="searchIcon">search</mat-icon>
       </button>
 
-      <button mat-icon-button routerLink='/user/login'>
+      <button mat-icon-button routerLink='/user/login' class="loginIcon">
         <mat-icon>person</mat-icon>
-        Login
       </button>
 
-      <button mat-icon-button routerLink='/user/register'>
+      <button mat-icon-button routerLink='/user/register' class="signUpIcon">
         <mat-icon>person_add</mat-icon>
-        Sign Up
       </button>
 
-      <button mat-icon-button (click)="openUserProfile()">
+      <button mat-icon-button class="dashboardIcon" (click)="openUserProfile()">
         <mat-icon>account_circle</mat-icon>
-        Profile
       </button>
 
       <button mat-icon-button [matMenuTriggerFor]="menuButtons">
-        <mat-icon>settings</mat-icon>
-        Customize
+        <mat-icon class="customizeIcon">settings</mat-icon>
       </button>
       <mat-menu #menuButtons>
         <button mat-menu-item *ngFor="let theme of themes" (click)="selectTheme(theme.value)">

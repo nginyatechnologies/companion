@@ -6,3 +6,13 @@
 .user-profile-icon {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 499px) {
+  .user-profile-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .user-profile-icon {
+    font-size: 2rem;
+  }
+}

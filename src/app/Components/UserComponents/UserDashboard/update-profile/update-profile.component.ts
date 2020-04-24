@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpdateProfileComponent implements OnInit {
 
-  links = ['home', 'About', 'People'];
+  links = ['Real Estate User', 'Kumatoh$Co', 'Nginya Go Market', 'Liachat'];
+  dataSource = [30, 10, 47, 78, 95, 68, 89];
 
   constructor() { }
   Status = JSON.parse(localStorage.getItem('status'));
@@ -29,5 +30,4 @@ export class UpdateProfileComponent implements OnInit {
     }
   }
 
-  dataSource = [30, 10, 47, 78, 95, 68, 89];
 }

@@ -1,12 +1,23 @@
 .uploadTask-container {
-  margin: 3rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
 }
 .uploadTask-card {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 30%;
 }
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 499px) {
+  .uploadTask-container {
+    margin-top: 2rem;
+    margin-right: 27rem;
+  }
+  .uploadTask-card {
+    max-width: 80%;
+  }
 }

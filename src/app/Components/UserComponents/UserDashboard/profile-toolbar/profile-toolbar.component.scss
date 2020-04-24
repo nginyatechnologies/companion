@@ -13,3 +13,27 @@ ul button {
 .sidenavBtn {
   margin-right: 0.5rem;
 }
+
+//Media Screens
+
+@media screen and (max-width: 499px) {
+  .searchIcon {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .searchIcon {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+  }
+}

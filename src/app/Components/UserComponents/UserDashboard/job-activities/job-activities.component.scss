@@ -13,3 +13,14 @@ mat-card-content span {
 mat-progress-spinner h1 {
   color: red;
 }
+
+@media screen and (max-width: 499px) {
+  mat-card-content span {
+    margin-top: -9.7rem;
+    margin-left: 5.4rem;
+    position: absolute;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+}

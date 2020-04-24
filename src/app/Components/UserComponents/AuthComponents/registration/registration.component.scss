@@ -1,5 +1,6 @@
 .registration-container {
-  margin: 3rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
 }
 .registration-card {
   margin: 0 auto;
@@ -9,4 +10,14 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 499px) {
+  .registration-container {
+    margin-top: 2rem;
+    margin-right: 27rem;
+  }
+  .registration-card {
+    max-width: 80%;
+  }
 }

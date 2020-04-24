@@ -1,8 +1,26 @@
 .main-container {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 app-home {
-  margin-left: 20%;
+  // margin-left: 20%;
   max-width: 80%;
+}
+
+//Media Screens
+@media screen and (max-width: 399px) {
+  .loginIcon {
+    display: none;
+  }
+  .signUpIcon {
+    display: none;
+  }
+  .dashboardIcon {
+    display: none;
+  }
+  .mainNav-one {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+  }
 }

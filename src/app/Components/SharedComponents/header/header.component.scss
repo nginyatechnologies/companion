@@ -1,25 +1,49 @@
 .mainNav-one {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .navLinks-one {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 ul button {
   margin-right: 4rem;
 }
 
-.mainNav-two {
-  display: flex;
-  justify-content: space-around;
+//Media Screens
+
+@media screen and (max-width: 499px) {
+  .loginIcon {
+    display: none;
+  }
+  .signUpIcon {
+    display: none;
+  }
+  .dashboardIcon {
+    display: none;
+  }
+  .mainNav-one {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+  }
 }
 
-.navLinks-two {
-  display: flex;
-  justify-content: space-evenly;
+@media screen and (max-width: 399px) {
+  .loginIcon {
+    display: none;
+  }
+  .signUpIcon {
+    display: none;
+  }
+  .dashboardIcon {
+    display: none;
+  }
+  .mainNav-one {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+  }
 }

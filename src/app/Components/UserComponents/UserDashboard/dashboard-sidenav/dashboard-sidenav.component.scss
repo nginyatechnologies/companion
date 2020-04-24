@@ -24,3 +24,9 @@ mat-card-header img {
 .sidenavBtn mat-icon {
   margin-right: 0.5rem;
 }
+@media screen and (max-width: 499px) {
+  .container-sidenav {
+    max-width: 30rem;
+    height: inherit;
+  }
+}
