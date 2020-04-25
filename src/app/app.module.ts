@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { DashboardModule } from './Modules/SharedModules/dashboard/dashboard.module';
-import { JobModule } from './Modules/SharedModules/job/job.module';
+import { BlogModule } from './Modules/SharedModules/blog/blog.module';
 import { MaterialModule } from './Modules/SharedModules/material/material.module';
 import { UtilitiesModule } from './Modules/SharedModules/utilities/utilities.module';
 import { AuthenticationModule } from './Modules/UserModules/authentication/authentication.module';
@@ -27,7 +27,7 @@ import { AuthenticationModule } from './Modules/UserModules/authentication/authe
     UtilitiesModule,
     DashboardModule,
     MaterialModule,
-    JobModule,
+    BlogModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

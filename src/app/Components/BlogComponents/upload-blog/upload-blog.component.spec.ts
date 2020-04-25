@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JobOutletComponent } from './job-outlet.component';
+import { UploadBlogComponent } from './upload-blog.component';
 
-describe('JobOutletComponent', () => {
-  let component: JobOutletComponent;
-  let fixture: ComponentFixture<JobOutletComponent>;
+describe('UploadBlogComponent', () => {
+  let component: UploadBlogComponent;
+  let fixture: ComponentFixture<UploadBlogComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ JobOutletComponent ]
+      declarations: [UploadBlogComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(JobOutletComponent);
+    fixture = TestBed.createComponent(UploadBlogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

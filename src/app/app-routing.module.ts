@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { JobListingComponent } from './Components/JobComponents/job-listing/job-listing.component';
-import { JobOutletComponent } from './Components/JobComponents/job-outlet/job-outlet.component';
-import { UploadJobComponent } from './Components/JobComponents/upload-job/upload-job.component';
-import { VerifyJobPostComponent } from './Components/JobComponents/verify-job-post/verify-job-post.component';
+import { BlogListingComponent } from './Components/BlogComponents/blog-listing/blog-listing.component';
+import { BlogOutletComponent } from './Components/BlogComponents/blog-outlet/blog-outlet.component';
+import { UploadBlogComponent } from './Components/BlogComponents/upload-blog/upload-blog.component';
+import { VerifyBlogPostComponent } from './Components/BlogComponents/verify-blog-post/verify-blog-post.component';
+import { AboutUsComponent } from './Components/SharedComponents/about-us/about-us.component';
+import { AgentSupportComponent } from './Components/SharedComponents/agent-support/agent-support.component';
+import { ContactComponent } from './Components/SharedComponents/contact/contact.component';
 import { HomeComponent } from './Components/SharedComponents/home/home.component';
+import { PortfolioComponent } from './Components/SharedComponents/portfolio/portfolio.component';
 import { SearchComponent } from './Components/SharedComponents/search/search.component';
+import { ServicesOfferedComponent } from './Components/SharedComponents/services-offered/services-offered.component';
 import { WelcomeComponent } from './Components/SharedComponents/welcome/welcome.component';
 import { LoginComponent } from './Components/UserComponents/AuthComponents/login/login.component';
 import { ProfileComponent } from './Components/UserComponents/AuthComponents/profile/profile.component';
 import { RegistrationComponent } from './Components/UserComponents/AuthComponents/registration/registration.component';
 import { DashboardComponent } from './Components/UserComponents/UserDashboard/dashboard/dashboard.component';
-import { AboutUsComponent } from './Components/SharedComponents/about-us/about-us.component';
-import { ContactComponent } from './Components/SharedComponents/contact/contact.component';
-import { PortfolioComponent } from './Components/SharedComponents/portfolio/portfolio.component';
-import { ServicesOfferedComponent } from './Components/SharedComponents/services-offered/services-offered.component';
-import { AgentSupportComponent } from './Components/SharedComponents/agent-support/agent-support.component';
 
 
 const routes: Routes = [
@@ -74,19 +74,19 @@ const routes: Routes = [
       },
       {
         path: 'job',
-        component: JobOutletComponent,
+        component: BlogOutletComponent,
         children: [
           {
             path: 'addJobPost',
-            component: UploadJobComponent
+            component: UploadBlogComponent
           },
           {
             path: 'listing',
-            component: JobListingComponent
+            component: BlogListingComponent
           },
           {
             path: 'verify',
-            component: VerifyJobPostComponent
+            component: VerifyBlogPostComponent
           }
         ]
       }

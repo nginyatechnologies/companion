@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-job-activities',
-  templateUrl: './job-activities.component.html',
-  styleUrls: ['./job-activities.component.scss']
+  selector: 'app-user-analytics',
+  templateUrl: './user-analytics.component.html',
+  styleUrls: ['./user-analytics.component.scss']
 })
-export class JobActivitiesComponent implements OnInit {
+export class UserAnalyticsComponent implements OnInit {
 
   constructor() { }
   loading = 'Loading';
